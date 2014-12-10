@@ -1,0 +1,59 @@
+body {
+	background-color: #ededed;
+}
+
+.logo {
+	margin: 25px 0 0 60px;
+	float: left;
+}
+
+nav {
+	background-color: #41464d;
+	font-family: "Quicksand", sans-serif;
+}
+
+nav a {
+	background-color: #41464d;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	text-decoration: none;
+	padding: 30px 40px 0 40px;
+	margin: 80px 60px 0px 0px;
+	display: inline-block;
+	float: right;
+}
+
+header {
+	background-color: #41464d;
+	border-bottom: 1px solid #cfdb00;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.intro {
+	background: url("images/hero.jpg") no-repeat;
+	background-size: cover;
+	height: 100vh;
+	font-family: "Sorts Mill Goudy", serif;
+	font-weight: 400;
+	line-height: 70px;
+	font-size: 42pt;
+	color: #ededed;
+}
+.blurb{
+	padding: 300px 410px 20px 420px;
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 0px;
+	margin-right: 360px;
+	margin-bottom: 0;
+	margin-left: 360px;
+	padding: 50px;
+}
